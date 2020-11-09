@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Novell Services</title>
+    <link rel="stylesheet" href="assign2.css">
+  </head>
+  <body>
+    <h1>Novell Services Login</h1>
+    <section class="inputs">
+    <form action="https://www.google.com/" method="get">
+        <label for="username">Username:</label>
+          <input type="text" id="username" name="username"  size="30" required><br><br>
+        <label for="password">Password:</label>
+          <input type="password" id="pass" name="password" size="30" required><br>
+        <label for="place">City of<br>Employment:</label>
+          <input type="text" id="place" name="place" size="30" required><br><br>
+        <label>Web server:</label>
+          <select id="myList">
+            <option value="1">--Choose a server--</option>
+            <option value="2">Human Resources</option>
+            <option value="2">Development</option>
+            <option value="3">Accounting</option>
+            <option value="5">Sales</option>
+          </select>
+  </section>
+        <br>
+          <form>
+            <input type="radio" id="admin" name="role" value="admin">
+            <label class="radio" for="admin">Admin</label><br>
+            <label>Please specify</label>
+            <input type="radio" id="engineer" name="role" value="engineer">
+            <label class="radio" for="engineer">Engineer</label><br>
+            <label>your role:</label>
+            <input type="radio" id="manager" name="role" value="manager">
+            <label class="radio" for="manager">Manager</label><br>
+            <input type="radio" id="guest" name="role" value="guest">
+            <label class="radio" for="guest">Guest</label><br>
+          </form>
+          <br>
+          <form>
+            <input type="checkbox" id="mail" name="signin" value="mail">
+            <label for="mail">Mail</label><br>
+            <label>Single Sign-on</label>
+            <input type="checkbox" id="payrole" name="signin" value="payrole">
+            <label for="payrole">Payrole</label><br>
+            <label>to the following:</label>
+            <input type="checkbox" id="selfservice" name="signin" value="selfservice">
+            <label for="selfservice">Self-service</label><br>
+          </form>
+        <br>
+        <br>
+        <button type="submit" name="login" class="button1">Login</button>
+        <button type="reset" name="reset" class="button1">Reset</button>
+      </form>
+    </body>
+</html>
