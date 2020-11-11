@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    body
+    {
+        background-color: lightblue;
+    }
+    table
+    {
+        background-color: snow;
+        padding-top: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 4%;
+        line-height: 200%;
+        border-radius: 0px 0px 20px 20px;
+    }
+    caption
+    {
+        background-color: snow;
+        padding-top: 8%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 4%;
+        line-height: 200%;
+        border-radius: 20px 20px 0px 0px ;
+    }
+    .botton
+    {
+       
+        border:none;
+        padding: 15px 32px;
+        text-align:center;
+        font-size:16px;
+    }
+    </style>
+    </head>
+    <body>
+        <form>
+            <table align="center">
+                <caption style="font-size:180%">Tell us Something positive that happened to you today.</caption>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter your name" size="40" required></td> <br>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter your email address" size="40" required></td> <br>
+                </tr>
+                <tr>
+                    <td>On a scale of 1-10, how good was it?</td>
+                    <td><input type="number" placeholder="Enter a number between 1 and 10" size="40" required></td>
+                </tr>
+                <tr>
+                    <td>Where did it happen?</td>
+                    <td>
+                        <select>
+                            <option value="1">At home</option>
+                            <option value="2">At home</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>At what time of day did it happen?</td>
+                    <td><input type="radio" name="time" value="morning">Morning<br>
+                        <input type="radio" name="time" value="afternoon">Afternoon<br>
+                        <input type="radio" name="time" value="evening">Evening
+                    </td>
+                </tr>
+                <tr>
+                    <td>What emotions did you experience?<br>(Select all that apply)</td>
+                    <td><input type="checkbox">Excited<br>
+                        <input type="checkbox">Humbled<br>
+                        <input type="checkbox">Elated<br>
+                        <input type="checkbox">Loved<br>
+                        <input type="checkbox">Enthusiastic
+                    </td>
+                </tr>
+                <tr>
+                    <td>Please describe your positive experience</td>
+                    <td><textarea placeholder="Enter your experience here..." rows="4" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                     <button style="padding: 8px 18px;  background-color:rgb(62, 158, 223); border-color:rgb(62, 158, 223) ;" class="button" type="Submit">Submit</botton>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
